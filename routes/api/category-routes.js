@@ -48,6 +48,22 @@ router.post('/', (req, res) => {
 
 router.put('/:id', (req, res) => {
   // update a category by its `id` value
+  Category.update({
+    // Updated fields go here
+  },
+    {
+      where: {
+        id: req.params.id,
+      },
+    }
+  )
+  .then((updatedCategory) => {
+    res.json(updatedCategory);
+  })
+  .catch((err) => {
+    console.log(err);
+    res.json(err)
+  });
 });
 
 router.delete('/:id', (req, res) => {
