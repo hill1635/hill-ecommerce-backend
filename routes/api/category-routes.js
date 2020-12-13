@@ -1,5 +1,4 @@
 const router = require('express').Router();
-const { Reader } = require('../../../uofu-san-fsf-pt-08-2020-u-c/13-ORM/01-Activities/24-Stu_One-to-Many/Solved/models');
 const { Category, Product } = require('../../models');
 
 // The `/api/categories` endpoint
