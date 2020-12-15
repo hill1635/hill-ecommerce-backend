@@ -18,10 +18,10 @@ router.get('/', (req, res) => {
 
 router.get('/:id', (req, res) => {
   // find one category by its `id` value
-  Reader.findByPk({
-    // be sure to include its associated Products
-    include: { model: Product },
-  })
+  Category.findByPk(req.params.id, {
+      // be sure to include its associated Products
+      include: { model: Product },
+    })
     .then((categoryData) => res.json(categoryData))
     .catch((err) => {
       console.log(err);
