@@ -23,7 +23,7 @@ Product.belongsToMany(Tag, {
 });
 
 Product.hasMany(ProductTag, {
-  foreignkey: 'tag_id',
+  foreignkey: 'product_id',
   onDelete: 'CASCADE',
 });
 
@@ -34,7 +34,7 @@ Tag.belongsToMany(Product, {
 });
 
 Tag.hasMany(ProductTag, {
-  foreignkey: 'product_id',
+  foreignkey: 'tag_id',
   onDelete: 'CASCADE',
 });
 
