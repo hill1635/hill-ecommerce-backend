@@ -9,7 +9,7 @@
 
 
 ## Purpose
-The purpose of this assignment was to complete models and routes for the backend development of an e-commerce site.  Most of the assignment file/folder structure was already provided.
+The purpose of this assignment was to complete models and routes for the backend development of an e-commerce site.  Most of the assignment file/folder structure was already provided.  The goal was to establish associations between models, create properties for the models, and connect them to an sql database to allow it to be dynamically updated.
 
 ## NPMs
 The NPMs used help run this application were Dotenv, Express, MySQL2 and Sequelize.  MySQL2 was used to help connect to MySQL Workbench in order to run MySQL functions viewing, creating, updating, and deleting values in the database.  Sequelize provided the framework for Model and DataTypes objects to help create separate tables with columns and values in the database based on models created.  Dotenv, in conjuction with Sequelize, bridged the gap between the database and the model javascript files by connecting to a localhost.  Seed javascript files helped populate the database tables, while the model files provided the framework for creating, deleting, and modifying values in the database.  And finally, Express was used to establish the connection and api routes in order to perform these methods.
