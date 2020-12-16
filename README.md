@@ -1,11 +1,11 @@
 ﻿# E-Commerce Backend
 
 ## Table of Contents
-[Purpose](https://github.com/hill1635/hill-ecommerce-backend#purpose)
-[NPMs](https://github.com/hill1635/hill-ecommerce-backend#npms)
-[Models](https://github.com/hill1635/hill-ecommerce-backend#models)
-[API Routes](https://github.com/hill1635/hill-ecommerce-backend#api-routes)
-[Deployment](https://github.com/hill1635/hill-ecommerce-backend#deployment)
+* Purpose
+* NPMs
+* Models
+* API Routes
+* Deployment
 
 
 ## Purpose
